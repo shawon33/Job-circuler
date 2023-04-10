@@ -12,6 +12,8 @@ import Home from './Component/Home/Home';
 import Statistices from './Component/Statistics/Statistices';
 import Blog from './Component/Blog/Blog';
 import './../public/Data.json'
+import JobDetails from './Component/JobDetails/JobDetails';
+import ErrorPage from './Component/Errorpage/ErrorPage';
 
 
 
@@ -19,6 +21,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element:<Main></Main>,
+    errorElement: <ErrorPage></ErrorPage>,
     children:[
       {
         path:'/',
@@ -26,13 +29,19 @@ const router = createBrowserRouter([
         loader:()=>fetch('Data.json')
       },
       {
+         path:"job/:jobId",
+         element:<JobDetails></JobDetails>,
+         loader:({params}) =>fetch(`http://localhost:5173/jobId/${params.id}`)
+      },
+      {
         path:'statistics',
-        element:<Statistices></Statistices>
+        element:<Statistices></Statistices>,
+        loader:({params})=> fetch('/Job.json')
       },
       {
         path:'blog',
         element:<Blog></Blog>
-      }
+      },
     ]
   },
 

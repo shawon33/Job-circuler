@@ -6,7 +6,8 @@
         "title": "Technical Database Engineer",
         "Working_zone": "Onsite",
         "time_zone": "fulltime",
-        "location": "San Francisco, CA"
+        "location": "San Francisco, CA",
+        "salary":"40000"
     },
     {
         "name": "Netflix",
@@ -15,7 +16,8 @@
         "title": "Senior Product Designer",
         "Working_zone": "Remote",
         "time_zone": "fulltime",
-        "location": "San Francisco, CA"
+        "location": "San Francisco, CA",
+        "salary":"20000"
     },
     {
         "name": "Tesla",
@@ -24,7 +26,8 @@
         "title": "Software Engineer",
         "Working_zone": "remote",
         "time_zone": "fulltime",
-        "location": "San Francisco, CA"
+        "location": "San Francisco, CA",
+        "salary":"25000"
     },
     {
         "name": "Google",
@@ -33,7 +36,8 @@
         "title": "Software Engineer",
         "Working_zone": "outside",
         "time_zone": "fulltime",
-        "location": "San Francisco, CA"
+        "location": "San Francisco, CA",
+        "salary":"10000"
     },
     {
         "name": "Email",
@@ -42,7 +46,8 @@
         "title": "Designer & Software Engineer",
         "Working_zone": "remote",
         "time_zone": "fulltime",
-        "location": "San Francisco, CA"
+        "location": "San Francisco, CA",
+        "salary":"30000"
     },
     {
         "name": "Facebook",
@@ -51,6 +56,7 @@
         "title": "Software Engineer",
         "Working_zone": "outside",
         "time_zone": "fulltime",
-        "location": "San Francisco, CA"
+        "location": "San Francisco, CA",
+        "salary":"20000"
     }
 ]
