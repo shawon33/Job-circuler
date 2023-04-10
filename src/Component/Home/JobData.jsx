@@ -13,7 +13,7 @@ const JobData = ({job}) => {
                <p className='  rounded bg-indigo-400' > {Working_zone}</p>
                <p className='ml-4   rounded bg-indigo-400'> {time_zone}</p>
             </div>
-            {location}
+              <p>Location:  <span className='text-3xl font-bold'>{location}</span></p>
            </div>
         </div>
     );
