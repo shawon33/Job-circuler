@@ -13,6 +13,8 @@ import Statistices from './Component/Statistics/Statistices';
 import Blog from './Component/Blog/Blog';
 import './../public/Data.json'
 
+
+
 const router = createBrowserRouter([
   {
     path: "/",

@@ -1,11 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import img from './img.jpg'
 import { useLoaderData } from 'react-router-dom';
 import Data from './Data';
+import "../../../public/Job.json"
+import JobData from './JobData';
+
 const Home = () => {
-   const datas= useLoaderData();
+   const datas = useLoaderData();
+
+   const [jobs, setJbData] = useState([]);
+
+   useEffect(() => {
+      fetch('Job.json')
+         .then(res => res.json())
+         .then(data => setJbData(data));
+   }, []);
+
+
+
    return (
-      <header> 
+      <header>
          {/* section-1 */}
          <section className='bg-indigo-50 md:flex justify-between mt-12 ' >
             <div className='m-12'>
@@ -22,16 +36,32 @@ const Home = () => {
          <section className='mt-24'>
             <h1 className='text-5xl font-bold '>Job Category List </h1>
             <p className='font-normal pt-6'>Explore thousands of job opportunities with all the information you need. Its your future</p>
-            <div className='mt-8 md:flex  justify-between gap-12  h-44'>
-                
-                   {
-                     datas.map(data => <Data
-                         key={data.id}
-                         data={data}
-                     ></Data>)
-                 }
-                
+            <div className='sm:mb-8 mt-8 md:flex  justify-between gap-12  h-44 '>
+
+               {
+                  datas.map(data => <Data
+                     key={data.id}
+                     data={data}
+                  ></Data>)
+               }
+
             </div>
+            <section className='m-auto md:pt-24'>
+               <div className='pl-8'>
+                  <div>
+                     <h1 className='text-5xl font-bold '>Featured Jobs</h1>
+                     <p className=' pt-8'>You will try your best this section</p>
+                  </div>
+                  <div className='md:grid grid-cols-2 gap-6 pt-6 pl-8'>
+                     {
+                        jobs.map(job => <JobData
+                           key={job.id}
+                           job={job}
+                        ></JobData>)
+                     }
+                  </div>
+               </div>
+            </section>
          </section>
       </header>
    );
