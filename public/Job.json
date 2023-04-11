@@ -7,7 +7,12 @@
         "Working_zone": "Onsite",
         "time_zone": "fulltime",
         "location": "San Francisco, CA",
-        "salary":"40000"
+        "salary":"40000",
+        "Job_Description":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "phone": "555-1234",
+        "email": "careers@example.com",
+        "experience": "5+ years of experience in software engineering",
+        "education": "Bachelor's degree in Computer Science or related field"
     },
     {
         "name": "Netflix",
@@ -17,7 +22,12 @@
         "Working_zone": "Remote",
         "time_zone": "fulltime",
         "location": "San Francisco, CA",
-        "salary":"20000"
+        "salary":"20000",
+        "Job_Description":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "phone": "555-1234",
+        "email": "careers@example.com",
+        "experience": "5+ years of experience in software engineering",
+        "education": "Bachelor's degree in Computer Science or related field"
     },
     {
         "name": "Tesla",
@@ -27,7 +37,12 @@
         "Working_zone": "remote",
         "time_zone": "fulltime",
         "location": "San Francisco, CA",
-        "salary":"25000"
+        "salary":"25000",
+        "Job_Description":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "phone": "555-1234",
+        "email": "careers@example.com",
+        "experience": "5+ years of experience in software engineering",
+        "education": "Bachelor's degree in Computer Science or related field"
     },
     {
         "name": "Google",
@@ -37,7 +52,12 @@
         "Working_zone": "outside",
         "time_zone": "fulltime",
         "location": "San Francisco, CA",
-        "salary":"10000"
+        "salary":"10000",
+        "Job_Description":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "phone": "555-1234",
+        "email": "careers@example.com",
+        "experience": "5+ years of experience in software engineering",
+        "education": "Bachelor's degree in Computer Science or related field"
     },
     {
         "name": "Email",
@@ -47,7 +67,12 @@
         "Working_zone": "remote",
         "time_zone": "fulltime",
         "location": "San Francisco, CA",
-        "salary":"30000"
+        "salary":"30000",
+        "Job_Description":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "phone": "555-1234",
+        "email": "careers@example.com",
+        "experience": "5+ years of experience in software engineering",
+        "education": "Bachelor's degree in Computer Science or related field"
     },
     {
         "name": "Facebook",
@@ -57,6 +82,10 @@
         "Working_zone": "outside",
         "time_zone": "fulltime",
         "location": "San Francisco, CA",
-        "salary":"20000"
+        "salary":"20000","Job_Description":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "phone": "555-1234",
+        "email": "careers@example.com",
+        "experience": "5+ years of experience in software engineering",
+        "education": "Bachelor's degree in Computer Science or related field"
     }
 ]
