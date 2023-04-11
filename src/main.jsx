@@ -31,12 +31,11 @@ const router = createBrowserRouter([
       {
          path:"job/:jobId",
          element:<JobDetails></JobDetails>,
-         loader:({params}) =>fetch(`http://localhost:5173/jobId/${params.id}`)
+         loader: ()=> fetch('Job.json'),
       },
       {
         path:'statistics',
         element:<Statistices></Statistices>,
-        loader:({params})=> fetch('/Job.json')
       },
       {
         path:'blog',

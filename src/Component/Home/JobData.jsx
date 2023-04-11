@@ -18,7 +18,7 @@ const JobData = ({ job }) => {
                <p>Location:  <span className='text-3xl font-bold'>{location}</span></p>
                <p>salary:{salary}$</p>
             </div>
-            <button className='border rounded text-white bg-indigo-500'><Link to={`/jobId/${id}`}>Show Details</Link></button>
+            <button className='border rounded text-white bg-indigo-500'><Link to={`/job/${id}`}>Show Details</Link></button>
          </div>
       </div>
    );

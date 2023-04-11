@@ -1,12 +1,26 @@
-import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { useLoaderData, useParams } from 'react-router-dom';
+import '../../../public/Job.json'
 
 const JobDetails = () => {
- const jobDetails = useLoaderData()
- console.log(jobDetails)
+    const {jobId} = useParams()
+    // const jobString = parseInt(jobId);
+    // console.log(typeof jobString)
+    
+    const [jobs, setJobData] = useState({});
+
+    useEffect(() => {
+        fetch('./../../../public/Job.json')
+         .then(res => res.json())
+         .then(data => {
+            const jobDetail = data.find(jobD => jobD.id === parseInt(jobId))
+            setJobData(jobDetail)
+         });
+    }, []);
+
     return (
         <div>
-            <h1>this is details</h1>
+            <h1>sha:{jobs.name} </h1>
         </div>
     );
 };
