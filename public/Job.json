@@ -1,91 +1,102 @@
 [
     {
         "name": "Google",
-        "img":"https://static.vecteezy.com/system/resources/previews/010/930/001/non_2x/google-logo-icon-illustration-free-vector.jpg",
+        "img": "https://static.vecteezy.com/system/resources/previews/010/930/001/non_2x/google-logo-icon-illustration-free-vector.jpg",
         "id": 1,
         "title": "Technical Database Engineer",
         "Working_zone": "Onsite",
         "time_zone": "fulltime",
         "location": "San Francisco, CA",
-        "salary":"40000",
-        "Job_Description":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "salary": "40000",
+        "Job_Description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "phone": "555-1234",
         "email": "careers@example.com",
         "experience": "5+ years of experience in software engineering",
-        "education": "Bachelor's degree in Computer Science or related field"
+        "education": "Bachelor's degree in Computer Science or related field",
+        "job_Responsibilities":"Develop and maintain software applications.Collaborate with cross-functional teams to design and implement new features.Write clean, efficient, and maintainable code"
     },
     {
         "name": "Netflix",
-        "img":"https://cdn-icons-png.flaticon.com/512/5977/5977590.png",
+        "img": "https://cdn-icons-png.flaticon.com/512/5977/5977590.png",
         "id": 2,
         "title": "Senior Product Designer",
         "Working_zone": "Remote",
         "time_zone": "fulltime",
         "location": "San Francisco, CA",
-        "salary":"20000",
-        "Job_Description":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "salary": "20000",
+        "Job_Description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "phone": "555-1234",
         "email": "careers@example.com",
         "experience": "5+ years of experience in software engineering",
-        "education": "Bachelor's degree in Computer Science or related field"
+        "education": "Bachelor's degree in Computer Science or related field",
+        "job_Responsibilities":"Develop and maintain software applications.Collaborate with cross-functional teams to design and implement new features.Write clean, efficient, and maintainable code"
+
     },
     {
         "name": "Tesla",
-        "img":"https://icon-library.com/images/tesla-icon/tesla-icon-13.jpg",
+        "img": "https://icon-library.com/images/tesla-icon/tesla-icon-13.jpg",
         "id": 3,
         "title": "Software Engineer",
         "Working_zone": "remote",
         "time_zone": "fulltime",
         "location": "San Francisco, CA",
-        "salary":"25000",
-        "Job_Description":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "salary": "25000",
+        "Job_Description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "phone": "555-1234",
         "email": "careers@example.com",
         "experience": "5+ years of experience in software engineering",
-        "education": "Bachelor's degree in Computer Science or related field"
+        "education": "Bachelor's degree in Computer Science or related field",
+        "job_Responsibilities":"Develop and maintain software applications.Collaborate with cross-functional teams to design and implement new features.Write clean, efficient, and maintainable code"
+
     },
     {
         "name": "Google",
-        "img":"https://static.vecteezy.com/system/resources/previews/010/930/001/non_2x/google-logo-icon-illustration-free-vector.jpg",
+        "img": "https://static.vecteezy.com/system/resources/previews/010/930/001/non_2x/google-logo-icon-illustration-free-vector.jpg",
         "id": 4,
         "title": "Software Engineer",
         "Working_zone": "outside",
         "time_zone": "fulltime",
         "location": "San Francisco, CA",
-        "salary":"10000",
-        "Job_Description":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "salary": "10000",
+        "Job_Description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "phone": "555-1234",
         "email": "careers@example.com",
         "experience": "5+ years of experience in software engineering",
-        "education": "Bachelor's degree in Computer Science or related field"
+        "education": "Bachelor's degree in Computer Science or related field",
+        "job_Responsibilities":"Develop and maintain software applications.Collaborate with cross-functional teams to design and implement new features.Write clean, efficient, and maintainable code"
+
     },
     {
         "name": "Email",
-        "img":"https://png.pngtree.com/png-vector/20191105/ourmid/pngtree-email-icon-in-flat-style-png-image_1957181.jpg",
+        "img": "https://png.pngtree.com/png-vector/20191105/ourmid/pngtree-email-icon-in-flat-style-png-image_1957181.jpg",
         "id": 5,
         "title": "Designer & Software Engineer",
         "Working_zone": "remote",
         "time_zone": "fulltime",
         "location": "San Francisco, CA",
-        "salary":"30000",
-        "Job_Description":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "salary": "30000",
+        "Job_Description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "phone": "555-1234",
         "email": "careers@example.com",
         "experience": "5+ years of experience in software engineering",
-        "education": "Bachelor's degree in Computer Science or related field"
+        "education": "Bachelor's degree in Computer Science or related field",   
+         "job_Responsibilities":"Develop and maintain software applications.Collaborate with cross-functional teams to design and implement new features.Write clean, efficient, and maintainable code"
     },
     {
         "name": "Facebook",
-        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png",
         "id": 6,
         "title": "Software Engineer",
         "Working_zone": "outside",
         "time_zone": "fulltime",
         "location": "San Francisco, CA",
-        "salary":"20000","Job_Description":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "salary": "20000",
+        "Job_Description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "phone": "555-1234",
         "email": "careers@example.com",
         "experience": "5+ years of experience in software engineering",
-        "education": "Bachelor's degree in Computer Science or related field"
+        "education": "Bachelor's degree in Computer Science or related field",
+        "job_Responsibilities":"Develop and maintain software applications.Collaborate with cross-functional teams to design and implement new features.Write clean, efficient, and maintainable code"
+
     }
 ]
