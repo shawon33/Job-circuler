@@ -5,7 +5,7 @@ import JobSingleDt from '../AppliedData/JobSingleDt';
 
 const AppliedJob = () => {
     const [cart, setCart] = useState([])
-    const [jobs, setAppliedJob] = useState([]);
+    const [jobSala, setAppliedJob] = useState([]);
 
     useEffect(() => {
        fetch('Job.json')
@@ -17,23 +17,21 @@ const AppliedJob = () => {
         const storedCart = getShoppingCart();
         const savedCart =[];
         for(const id in storedCart){
-            const savedProduct = jobs.find(job=> job.id === parseInt(id))
-            savedCart.push(savedProduct)
+            const savedProduct = jobSala.find(job=> job.id === parseInt(id))
+            if(savedProduct){
+                const quantity = storedCart[id];
+                savedProduct.quantity=quantity
+                savedCart.push(savedProduct)
+            }
+            
         }
         setCart(savedCart);
-    },[jobs])
- 
-    
+    },[jobSala])
  
 
     return (
         <div>
-            {
-                cart.map(jobs=><JobSingleDt
-                key={jobs.id}
-                jobs={jobs}
-                ></JobSingleDt>)
-            }
+            <h1>Applied job: {cart.length}</h1>
         </div>
     );
 };
