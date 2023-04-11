@@ -1,14 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData, useParams } from 'react-router-dom';
+import { Link, useLoaderData, useParams } from 'react-router-dom';
 import '../../../public/Job.json'
+import { addToDb } from '../Utilites/Utils';
 
 const JobDetails = () => {
     const { jobId } = useParams()
-    // const jobString = parseInt(jobId);
-    // console.log(typeof jobString)
-
     const [jobs, setJobData] = useState({});
-
     useEffect(() => {
         fetch('./../../../public/Job.json')
             .then(res => res.json())
@@ -17,7 +14,13 @@ const JobDetails = () => {
                 setJobData(jobDetail)
             });
     }, []);
-   const {Job_Description,phone,email,experience,education,title,salary,location,job_Responsibilities}= jobs;
+
+    const handleAddToStore =(id)=>{
+        addToDb(id)
+
+    }
+
+   const {id,Job_Description,phone,email,experience,education,title,salary,location,job_Responsibilities}= jobs;
     return (
         <section className='mt-8 '>
             <h1 className='bg-indigo-100 mb-12 text-center text-5xl font-bold p-12'>Job Details</h1>
@@ -44,12 +47,13 @@ const JobDetails = () => {
                         <p><span className='font-bold'>Email:</span><span className='pl-4'>{email}</span></p>
                         <p><span className='font-bold'>Address:</span><span className='pl-4' >{location}</span></p>
                     </div>
-                    <button className='bg-indigo-500 text-white rounded mt-4 py-3 px-24'>Apply Now</button>
+                    <button  onClick={()=>handleAddToStore(id)} className='bg-indigo-500 text-white rounded mt-4 py-3 px-24'>Applied Now</button>
                 </div>
                </div>
             </div>
         </section>
     );
 };
+
 
 export default JobDetails;
