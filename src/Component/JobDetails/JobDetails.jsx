@@ -17,7 +17,6 @@ const JobDetails = () => {
 
     const handleAddToStore =(id)=>{
         addToDb(id)
-
     }
 
    const {id,Job_Description,phone,email,experience,education,title,salary,location,job_Responsibilities}= jobs;
