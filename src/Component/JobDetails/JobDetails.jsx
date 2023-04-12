@@ -19,7 +19,7 @@ const JobDetails = () => {
         //         const jobDetail = data.find(jobD => jobD.id === parseInt(jobId))
         //         setJobData(jobDetail)
         //     });
-    }, []);
+    }, [jobId,data]);
 
     const handleAddToStore =(id)=>{
         addToDb(id)
