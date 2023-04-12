@@ -2,7 +2,7 @@ import React from 'react';
 import './applied.css'
 
 const JobSingleDt = ({ job }) => {
-    console.log(job)
+   
     const { img, name, title, location, Working_zone, time_zone } = job;
     return (
         <div className=' gap-3'>

@@ -16,11 +16,6 @@ const Home = () => {
          .then(data => setJbData(data));
    }, []);
 
-   // const [appliedJob,setAppliedjob] =useState([])
-   
-
-
-
    return (
       <header>
          {/* section-1 */}
