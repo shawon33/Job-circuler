@@ -9,7 +9,6 @@ const JobDetails = () => {
     const data = useLoaderData();
     useEffect(() => {
         if(jobId){
-            console.log(typeof jobId)
             const jobDetail = data.find(jobD => jobD.id === parseInt(jobId))
             setJobData(jobDetail)
         }
