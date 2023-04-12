@@ -6,13 +6,19 @@ import { addToDb } from '../Utilites/Utils';
 const JobDetails = () => {
     const { jobId } = useParams()
     const [jobs, setJobData] = useState({});
+    const data = useLoaderData();
     useEffect(() => {
-        fetch('./../../../public/Job.json')
-            .then(res => res.json())
-            .then(data => {
-                const jobDetail = data.find(jobD => jobD.id === parseInt(jobId))
-                setJobData(jobDetail)
-            });
+        if(jobId){
+            console.log(typeof jobId)
+            const jobDetail = data.find(jobD => jobD.id === parseInt(jobId))
+            setJobData(jobDetail)
+        }
+        // fetch('./../../../public/Job.json')
+        //     .then(res => res.json())
+        //     .then(data => {
+        //         const jobDetail = data.find(jobD => jobD.id === parseInt(jobId))
+        //         setJobData(jobDetail)
+        //     });
     }, []);
 
     const handleAddToStore =(id)=>{

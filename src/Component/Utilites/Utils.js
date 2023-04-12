@@ -45,7 +45,7 @@ const addToDb = id => {
         const newQuantity = quantity + 1;
         shoppingCart[id] = newQuantity;
     }
-    localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart));
+    localStorage.setItem('Applied-job', JSON.stringify(shoppingCart));
 }
 
 const removeFromDb = id => {
@@ -60,7 +60,7 @@ const getShoppingCart = () => {
     let shoppingCart = {};
 
     //get the shopping cart from local storage
-    const storedCart = localStorage.getItem('shopping-cart');
+    const storedCart = localStorage.getItem('Applied-job');
     if (storedCart) {
         shoppingCart = JSON.parse(storedCart);
     }

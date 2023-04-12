@@ -16,7 +16,7 @@ const Home = () => {
          .then(data => setJbData(data));
    }, []);
 
-   const [appliedJob,setAppliedjob] =useState([])
+   // const [appliedJob,setAppliedjob] =useState([])
    
 
 
