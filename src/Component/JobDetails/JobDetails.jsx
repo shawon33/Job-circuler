@@ -13,12 +13,7 @@ const JobDetails = () => {
             const jobDetail = data.find(jobD => jobD.id === parseInt(jobId))
             setJobData(jobDetail)
         }
-        // fetch('./../../../public/Job.json')
-        //     .then(res => res.json())
-        //     .then(data => {
-        //         const jobDetail = data.find(jobD => jobD.id === parseInt(jobId))
-        //         setJobData(jobDetail)
-        //     });
+     
     }, [jobId,data]);
 
     const handleAddToStore =(id)=>{
